@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Riddle 8</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{font-family:Arial;text-align:center;background:#f4f4f4;padding:40px;}
+.container{background:white;padding:30px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.1);}
+input{padding:10px;width:80%;max-width:300px;margin:10px;}
+button{padding:10px 20px;background:#28a745;color:white;border:none;border-radius:5px;}
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Riddle 8</h2>
+<p>What month of the year has 28 days?</p>
+<input type="text" id="answer">
+<br>
+<button onclick="check()">Submit</button>
+</div>
+
+<script>
+function check(){
+let ans=document.getElementById("answer").value.toLowerCase();
+if(ans==="all"){
+window.location.href="riddle9.html";
+}else{
+alert("Wrong answer! Think carefully!");
+}
+}
+</script>
+</body>
+</html>
