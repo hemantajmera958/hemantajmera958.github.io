@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Riddle Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align:center;
+            background:#f4f4f4;
+            padding:40px;
+        }
+        .container{
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+        button{
+            padding:10px 20px;
+            font-size:16px;
+            background:#007bff;
+            color:white;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+        button:hover{
+            background:#0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Riddle Game 🎯</h1>
+        <h3>Owner: Hemant Ajmera</h3>
+        <p>Test your brain with 9 fun riddles. Solve each one correctly to unlock the next challenge!</p>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <script>
+        function startGame(){
+            window.location.href="riddle1.html";
+        }
+    </script>
+</body>
+  </html>
